@@ -1,0 +1,3 @@
+# CPU-specific requirements
+torch>=2.0.0
+torchaudio>=2.0.0

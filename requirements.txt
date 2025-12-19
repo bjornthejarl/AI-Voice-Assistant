@@ -1,0 +1,20 @@
+# Python dependencies for Sarah Voice Assistant
+# PyTorch installed separately based on GPU detection
+
+# Core
+flask==3.0.3
+flask-cors==6.0.2
+python-dotenv==1.0.1
+requests==2.32.3
+openai==1.71.0
+
+# Speech
+faster-whisper==1.1.1
+kokoro==0.9.4
+webrtcvad==2.0.10
+
+# Audio
+numpy==1.26.4
+soundfile==0.13.1
+pygame==2.6.1
+sounddevice==0.5.3

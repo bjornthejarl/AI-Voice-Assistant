@@ -1,0 +1,41 @@
+# Environment files with secrets
+.env
+.env.local
+.env.production
+
+# Data files (personal)
+sarah_memory.json
+chat_history.json
+
+# Device detection file (Docker generated)
+.device_type
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
